@@ -1,16 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>DOM Starter Kit</title>
     <link rel="stylesheet" href="css/index.css" />
-</head>
+  </head>
 
-<body>
+  <body>
+    <h1>MADLIBS</h1>
+    <form>
+      <fieldset>
+        <legend>Authorized Users Stuff</legend>
+        <label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </label>
+        <label>
+          <input
+            type="text"
+            name="food"
+            id="food"
+            placeholder="Favorite food?"
+          /> </label
+        ><label>
+          <input
+            type="text"
+            name="animal"
+            id="animal"
+            placeholder="Favorite animal?"
+          />
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit your Data" />
+    </form>
 
-</body>
-<script src="js/index.js"></script>
+    <h2>OUTPUT</h2>
+
+    <div class="container">
+      <p>Who are you?</p>
+      <span></span>
+      <p>What do you like to eat?</p>
+      <span></span>
+      <p>What's your animal of choice?</p>
+      <span></span>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
 </html>
